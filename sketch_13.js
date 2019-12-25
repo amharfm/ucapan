@@ -178,7 +178,7 @@ function firsthingtodo(){
       let period = random(100, 200); // Num pixels before wave repeats
       dx[i] = (TWO_PI / period) * xspacing;
     }
-    yvalues = new Array(width/1.2);
+    yvalues = new Array(floor(width/1.2));
         
     land_arr[0] = random(0,20);
     land_arr[1] = random(-10,30);
