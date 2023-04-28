@@ -1,6 +1,6 @@
 
 let style;
-let isThis = 3;
+let isThis = 1;
   //0 & 1 are for squared frame
   //2 is for screensaver
   //3 is for mobile
