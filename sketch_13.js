@@ -97,7 +97,7 @@ function draw(){
     fill("white");
     textSize(16);
     textAlign(CENTER);
-    text('to: '+ siapa , width/2, height*0.85);
+    text('to: '+ siapa , width/2, height*0.5);
   }
 }
 
