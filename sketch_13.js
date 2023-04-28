@@ -1,6 +1,6 @@
 
 let style;
-let isThis = 1;
+let isThis = 3;
   //0 & 1 are for squared frame
   //2 is for screensaver
   //3 is for mobile
@@ -97,7 +97,8 @@ function draw(){
     fill("white");
     textSize(16);
     textAlign(CENTER);
-    text('to: '+ siapa , width/2, height*0.5);
+    //text('to: '+ siapa , width/2, height*0.85);
+    text('to: '+ siapa , width/2, height*0.25);
   }
 }
 
