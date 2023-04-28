@@ -43,7 +43,7 @@ function setup() {
     count_stars = 100;
   } else if (style==3){
     frameRate(10);
-    createCanvas(window.displayWidth,window.displayHeight);
+    createCanvas(window.displayWidth,window.displayHeight/2);
     count_stars = 50;
   }
   
